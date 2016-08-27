@@ -11,8 +11,19 @@ class BasicsDemo {
     System.out.println();
   }
 
+  static void primitives() {
+    System.out.println("\n\nInside primitives...");
+    int intHex = 0x0041;
+    System.out.println("intHex: " + intHex);
+    int intBinary = 0b01000001;
+    System.out.println("intBinary: " + intBinary);
+    int intUnderscore = 1_23_456;
+    System.out.println("intUnderscore: " + intUnderscore);
+  }
+
   public static void main(String[] args) {
-    print();
+    // print();
+    primitives();
   }
 }
 
